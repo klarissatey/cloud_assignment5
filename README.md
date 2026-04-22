@@ -1,4 +1,7 @@
 # cloud_assignment5
-# cloud_assignment5
 
-klarissa tey
+name: klarissa tey
+eid: kkt655
+githubusername: klarissatey
+aws_region_name: us-west-2
+comments: none

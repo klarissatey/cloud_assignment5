@@ -10,9 +10,9 @@ Resources:
   PaaSEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t2.micro
-      KeyName: "" # Requirement 4: Inject the KeyName provided as a parameter
-      ImageId: "" # Requirement 5: Use Ubuntu 24.04 image for us-west-2
+      InstanceType: t3.micro
+      KeyName: !Ref KeyName # Requirement 4: Inject the KeyName provided as a parameter
+      ImageId: ami-06764d4b3d62da4fa # Requirement 5: Use Ubuntu 24.04 image for us-west-2
 
       SecurityGroupIds:
         - !Ref InstanceSecurityGroup

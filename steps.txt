@@ -14,7 +14,7 @@ aws cloudformation create-stack \
   --stack-name personal-paas \
   --template-body file://template.yaml \
   --parameters ParameterKey=KeyName,ParameterValue=assignment4 \
-  --region us-west-2
+  --region us-west-2 \
   --capabilities CAPABILITY_NAMED_IAM
 
 3. Wait for the Stack to complete
